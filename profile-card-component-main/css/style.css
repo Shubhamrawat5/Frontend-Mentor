@@ -1,0 +1,94 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  text-align: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: right 30vw bottom 50vh, left 50vw top 50vh;
+}
+
+.name {
+  margin: auto 2px;
+  font-weight: bold;
+  opacity: 0.85;
+}
+
+.age {
+  color: #962f6d;
+}
+
+.place {
+  color: #962f6d;
+  margin-top: 8px;
+  font-weight: 400;
+}
+
+p {
+  color: #962f6d;
+  margin: auto 8px;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.profile-card {
+  margin: auto;
+  margin-top: 140px;
+  max-width: 21rem;
+  border-radius: 8px;
+  position: relative;
+}
+
+.upper {
+  background-image: url(../images/bg-pattern-card.svg);
+  height: 8rem;
+  border-radius: 8px 8px 0 0;
+}
+
+.lower {
+  background-color: white;
+  border-radius: 0 0 8px 8px;
+}
+
+.dp {
+  width: 6rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-3rem);
+  top: 22%;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+
+.info {
+  margin-top: 0px;
+  padding-top: 66px;
+  padding-bottom: 23px;
+}
+
+.stats {
+  border-top: 1px solid #a77e7e61;
+}
+
+h3 {
+  margin: 22px 0 8px 0;
+}
+
+.followers, .likes, .photos {
+  width: 6.2rem;
+  display: inline-block;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.attribution {
+  font-size: 16px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -120px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
