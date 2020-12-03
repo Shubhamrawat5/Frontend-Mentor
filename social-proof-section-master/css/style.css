@@ -1,0 +1,153 @@
+body {
+  font-family: 'Spartan', sans-serif;
+  background-color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  min-width: 375px;
+  max-width: 1440px;
+  text-align: center;
+  margin-top: 25px;
+  background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
+}
+
+.info {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.info h1 {
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+  padding: 0 0px;
+  font-size: 2.5rem;
+  width: 22rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info p {
+  font-weight: 500;
+  max-width: 30rem;
+  color: hsl(303, 10%, 53%);
+  margin-top: 0;
+}
+
+.ratings {
+  display: inline-block;
+  color: hsl(300, 43%, 22%);
+  position: relative;
+  bottom: 40px;
+}
+
+.r2 {
+  position: relative;
+  left: 10%;
+}
+
+.r3 {
+  position: relative;
+  left: 20%;
+}
+
+.ratings span {
+  position: relative;
+  bottom: 2px;
+  left: 12px;
+}
+
+.rating {
+  background-color: hsl(300, 24%, 96%);
+  margin: 14px;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  width: 25rem;
+}
+
+@media screen and (max-width:952px) {
+  .ratings, .r2, .r3 {
+    position: static;
+  }
+
+  .ratings {
+    min-width: 100%;
+    margin-top: 20px;
+  }
+
+  .rating {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .rating-info {
+    display: block;
+    margin-top: 10px;
+  }
+}
+
+.reviews {
+  display: inline-flex;
+  width: 75%;
+  justify-content: center;
+}
+
+.review {
+  padding: 24px 34px 6px 30px;
+  margin: 10px;
+  text-align: left;
+  border-radius: 5%;
+  background-color: hsl(300, 43%, 22%);
+  color: white;
+  display: inline-block;
+}
+
+.review img {
+  width: 45px;
+  border-radius: 50%;
+  float: left;
+}
+
+.review h4 {
+  position: relative;
+  left: 20px;
+  bottom: 12px;
+  color: hsl(0, 0%, 100%);
+}
+
+small {
+  font-weight: 500;
+  color: hsl(303, 10%, 53%);
+}
+
+.review p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width:952px) {
+  .review {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 22.3rem;
+  }
+
+  .reviews {
+    width: 100%;
+    margin-top: 20px;
+    flex-direction: column;
+  }
+}
+
+.attribution {
+  margin-top: 2%;
+  font-size: 11px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

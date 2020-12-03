@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-  font-size: 3rem;
+  font-size: 4rem;
   padding: 12px 0 8px 0;
   color: #ececec;
   box-shadow: 6px -10px 20px 10px #16393e;
@@ -16,7 +16,7 @@ body {
 }
 
 .list {
-  font-size: 2rem;
-  margin: 10px;
+  font-size: 3rem;
+  margin: 15px;
   list-style-type: none;
 }
