@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  text-align: center;
+  background-color: #afeeee61;
+}
+
+.header {
+  font-size: 3rem;
+  padding: 12px 0 8px 0;
+  color: #ececec;
+  box-shadow: 6px -10px 20px 10px #16393e;
+  background-color: #16393e;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.list {
+  font-size: 2rem;
+  margin: 10px;
+  list-style-type: none;
+}
