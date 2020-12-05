@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Spartan', sans-serif;
   margin: 0;
   text-align: center;
   background-color: #afeeee61;
@@ -7,16 +7,41 @@ body {
 
 .header {
   font-size: 4rem;
-  padding: 12px 0 8px 0;
+  padding: 20px;
+  padding-bottom: 0px;
   color: #ececec;
-  box-shadow: 6px -10px 20px 10px #16393e;
+  box-shadow: 10px 4px 3px 1px #16393e;
+  width: 90%;
+  border-radius: 15px;
   background-color: #16393e;
-  margin: 0;
-  margin-bottom: 30px;
+  margin: 2% auto 3rem auto;
 }
 
-.list {
-  font-size: 3rem;
-  margin: 15px;
-  list-style-type: none;
+.design {
+  display: inline-block;
+  margin: 20px;
+  box-shadow: 6px 6px 10px -3px grey;
+}
+
+.image-1 {
+  height: 16rem;
+}
+
+h4 {
+  margin: 6px;
+  color: #5e678a;
+}
+
+img {
+  width: 26rem;
+}
+
+a {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.design:hover {
+  transform: rotate(3deg);
 }

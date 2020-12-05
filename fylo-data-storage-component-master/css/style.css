@@ -1,0 +1,187 @@
+body {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  max-width: 1440px;
+  min-width: 375px;
+  background-color: hsl(229, 57%, 11%);
+  color: white;
+  background-image: url(../images/bg-desktop.png);
+  background-repeat: no-repeat;
+  background-position-y: 21.5rem;
+}
+
+.section {
+  margin: auto;
+}
+
+.main-section, .info-section {
+  display: inline-block;
+  margin: 10px;
+  background-color: hsl(228, 56%, 26%);
+}
+
+.main-section {
+  height: 11rem;
+  width: 20rem;
+  margin-top: 16rem;
+  border-radius: 10px 90px 10px 10px;
+}
+
+.main-section-part {
+  position: relative;
+  top: 40px;
+  right: 44px;
+}
+
+.icons {
+  margin-top: 20px;
+}
+
+.icons div:hover {
+  transform: scale(1.1);
+}
+
+.icons div {
+  height: 24px;
+  display: inline-block;
+  width: 22px;
+  background-color: hsl(229, 57%, 11%);
+  margin: 2px;
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+
+.icon-1, .icon-2, .icon-3 {
+  display: block;
+  margin: 0 auto 0 auto;
+}
+
+.icon-2 {
+  margin-top: 3px;
+}
+
+.icon-3 {
+  margin-top: 5px;
+}
+
+.info-section {
+  height: 7rem;
+  width: 27rem;
+  border-radius: 10px;
+  text-align: left;
+  font-weight: 400;
+  padding: 10px 10px 10px 40px;
+  position: relative;
+  top: 27px;
+}
+
+.text {
+  font-weight: 400;
+}
+
+.popout {
+  background-color: white;
+  color: hsl(229, 57%, 11%);
+  position: absolute;
+  right: 55px;
+  height: 40px;
+  padding: 12px 12px 8px 12px;
+  width: 100px;
+  top: -30px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.popout:after {
+  position: absolute;
+  height: 0;
+  width: 0;
+  left: 80%;
+  top: 30%;
+  transform: rotate(45deg);
+  border: 25px solid #38161600;
+  border-bottom-color: white;
+  content: "";
+}
+
+.popout h2 {
+  display: inline;
+  font-size: 26px;
+  margin-right: 5px;
+}
+
+.progress-bar {
+  background-color: hsl(229, 57%, 11%);
+  height: 12px;
+  width: 90%;
+  border-radius: 10px;
+  margin: 12px 0 5px 0;
+}
+
+.progress {
+  background-color: hsl(6, 100%, 80%);
+  width: 75%;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.progress-circle {
+  height: 10px;
+  width: 10px;
+  background-color: hsl(0deg 0% 100%);
+  border-radius: 50%;
+  margin-left: 97%;
+}
+
+.start, .end {
+  display: inline-flex;
+}
+
+.end {
+  text-align: right;
+  margin-left: 70%;
+}
+
+.attribution {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.attribution a {
+  color: hsl(228deg 28% 83%);
+}
+
+@media screen and (max-width:900px) {
+  body {
+    background-image: url(../images/bg-mobile.png);
+    background-size: cover;
+    background-position-y: 0;
+    background-repeat: repeat;
+  }
+
+  .main-section, .info-section {
+    display: block;
+    margin: 0 auto 0 auto;
+  }
+
+  .main-section {
+    margin-top: 5rem;
+    width: 19rem;
+  }
+
+  .info-section {
+    width: 17rem;
+  }
+
+  .popout {
+    top: 7.5rem;
+    left: 7rem;
+  }
+
+  .popout::after {
+    display: none;
+  }
+}
