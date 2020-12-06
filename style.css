@@ -6,15 +6,13 @@ body {
 }
 
 .header {
-  font-size: 4rem;
-  padding: 20px;
-  padding-bottom: 0px;
+  font-size: 3rem;
+  padding: 15px;
+  padding-bottom: 5px;
   color: #ececec;
-  box-shadow: 10px 4px 3px 1px #16393e;
-  width: 90%;
-  border-radius: 15px;
+  box-shadow: 0 2px 3px 0px #16393e;
   background-color: #16393e;
-  margin: 2% auto 3rem auto;
+  margin: 0;
 }
 
 .design {
@@ -23,17 +21,28 @@ body {
   box-shadow: 6px 6px 10px -3px grey;
 }
 
-.image-1 {
-  height: 16rem;
-}
-
 h4 {
   margin: 6px;
   color: #5e678a;
 }
 
 img {
-  width: 26rem;
+  width: 20rem;
+  transition: all 0.25s;
+}
+
+.img-box {
+  overflow: hidden;
+}
+
+@media (max-width:1000px) {
+  img {
+    width: 50rem;
+  }
+
+  .design {
+    margin: 0 0 3rem 0;
+  }
 }
 
 a {
@@ -42,6 +51,7 @@ a {
   text-decoration: none;
 }
 
-.design:hover {
-  transform: rotate(3deg);
+.design img:hover {
+  transform: scale(1.1);
+  transition: transform 0.25s;
 }

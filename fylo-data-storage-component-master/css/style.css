@@ -12,6 +12,7 @@ body {
 }
 
 .section {
+  width: 90%;
   margin: auto;
 }
 
@@ -168,12 +169,13 @@ body {
   }
 
   .main-section {
+    width: auto;
+    margin: auto;
     margin-top: 5rem;
-    width: 19rem;
   }
 
   .info-section {
-    width: 17rem;
+    width: auto;
   }
 
   .popout {

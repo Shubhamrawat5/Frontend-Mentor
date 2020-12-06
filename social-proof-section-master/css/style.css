@@ -59,10 +59,10 @@ body {
   background-color: hsl(300, 24%, 96%);
   margin: 14px;
   padding: 12px;
+  padding-right: 24px;
   border-radius: 10px;
   font-weight: 700;
   font-size: 14px;
-  width: 25rem;
 }
 
 @media screen and (max-width:952px) {
@@ -71,7 +71,7 @@ body {
   }
 
   .ratings {
-    min-width: 100%;
+    min-width: 90%;
     margin-top: 20px;
   }
 
@@ -130,11 +130,10 @@ small {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    width: 22.3rem;
   }
 
   .reviews {
-    width: 100%;
+    width: 90%;
     margin-top: 20px;
     flex-direction: column;
   }

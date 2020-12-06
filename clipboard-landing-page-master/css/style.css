@@ -1,0 +1,233 @@
+body {
+  max-width: 1440px;
+  min-width: 375px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  text-align: center;
+  background-image: url(../images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  color: hsl(210, 10%, 33%);
+  margin: 0;
+}
+
+.header {
+  width: 85%;
+  margin: auto;
+  padding: 7rem 0 5rem 0;
+}
+
+.logo {
+  width: 5.5rem;
+}
+
+.header h2 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+p {
+  max-width: 36rem;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.buttons {
+  display: inline-block;
+  background-color: hsl(171deg 69% 35%);
+  padding: 10px 18px;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px 0px hsl(171deg 69% 35%);
+  margin: 0px 5px 20px 5px;
+}
+
+.buttons:hover, .social-logos img:hover, .footer-content h5:hover {
+  transform: scale(1.1);
+}
+
+.b2 {
+  background-color: hsl(233, 100%, 69%);
+  margin-top: -10px;
+}
+
+.upper, .lower {
+  margin: auto;
+  width: 90%;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  margin-top: 3rem;
+}
+
+.upper img {
+  display: inline-block;
+  position: relative;
+  right: 15%;
+  width: 43rem;
+}
+
+.img-text-section {
+  text-align: left;
+  position: relative;
+  bottom: 11rem;
+  right: 7rem;
+  display: inline-block;
+  width: 30%;
+}
+
+@media (max-width:1114px) {
+  .header {
+    margin-top: 1rem;
+  }
+
+  .upper img {
+    position: static;
+    width: 18rem;
+    display: block;
+    margin: auto;
+  }
+
+  .img-text-section {
+    text-align: center;
+    width: 90%;
+    margin-top: 2rem;
+    position: static;
+  }
+}
+
+h4 {
+  font-size: 1.5rem;
+  display: inline-block;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+
+.lower img {
+  width: 46rem;
+}
+
+@media (max-width:1114px) {
+  .lower img {
+    width: 20rem;
+  }
+}
+
+.feature {
+  display: inline-flex;
+  flex-direction: column;
+  width: 25%;
+  margin-top: 2rem;
+}
+
+.feature img {
+  display: block;
+  margin: auto;
+}
+
+.feature h4 {
+  margin: 2rem 0 1rem 0;
+}
+
+.company-logos {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-logos img {
+  margin: 5rem 2rem 4rem 2rem;
+}
+
+@media (max-width:1114px) {
+  h3 {
+    margin-top: 4.5rem;
+  }
+
+  .feature {
+    display: block;
+    margin: 4rem auto;
+    width: 90%;
+  }
+
+  .company-logos {
+    margin: 2.5rem 0;
+    flex-direction: column;
+  }
+
+  .company-logos img {
+    display: block;
+    margin: 2.5rem auto;
+  }
+}
+
+.download-info {
+  width: 90%;
+  margin: auto;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 1rem 6rem;
+  margin-top: 5rem;
+}
+
+.company-logo {
+  width: 4rem;
+  position: relative;
+  right: 8rem;
+}
+
+.social-logos, .footer-content {
+  display: inline-block;
+}
+
+footer h5 {
+  font-size: 1rem;
+  display: inline-block;
+  width: 10rem;
+  margin: 1rem 0;
+}
+
+.footer-content {
+  width: 33rem;
+  text-align: left;
+}
+
+.social-logos {
+  position: relative;
+  left: 15%;
+}
+
+@media (max-width:1114px) {
+  .footer-content {
+    text-align: center;
+    width: auto;
+    margin: 1.5rem auto;
+  }
+
+  .footer-content h5 {
+    display: block;
+    margin: 1rem auto;
+  }
+
+  .company-logo, .social-logos {
+    display: block;
+    position: static;
+    margin: 1.5rem auto;
+  }
+}
+
+.social-logos img {
+  margin: 0.5rem;
+}
+
+.attribution {
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
