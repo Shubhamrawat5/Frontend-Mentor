@@ -1,0 +1,241 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  background-color: hsl(270, 20%, 96%);
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.phone {
+  max-width: 13.5rem;
+  min-width: 13.5rem;
+  margin: 2rem;
+  border: 0px solid black;
+  background-color: white;
+  padding: 0.7rem;
+  border-radius: 20px;
+  display: inline-block;
+  position: relative;
+}
+
+body::before, body::after {
+  content: "";
+  position: absolute;
+  background: #0000ffad;
+  height: 75vh;
+  width: 40%;
+  border-radius: 0 0 50% 50%;
+}
+
+body::before {
+  left: -10%;
+}
+
+body::after {
+  opacity: 0.03;
+  right: -10%;
+  bottom: 0;
+  transform: rotate(180deg);
+  background: #4e4efc;
+}
+
+.content {
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: hsl(276, 55%, 52%);
+  background: linear-gradient(90deg, hsla(264, 100%, 61%, 1) 0%, hsla(264, 100%, 61%, 1) 54%, hsla(293, 100%, 63%, 1) 100%);
+  color: white;
+  text-align: left;
+  padding: 15px 10px 5px 10px;
+  border-radius: 20px 20px 5px 5px;
+}
+
+.avatar img {
+  border-radius: 50%;
+  border: 1.5px solid white;
+  width: 1.5rem;
+}
+
+.back-option, .avatar, .person-name-status, .three-dots {
+  display: inline-block;
+}
+
+.person-name-status {
+  margin-left: 5px;
+}
+
+.person-name {
+  margin: 5px 0 0 0;
+  font-size: 14px;
+}
+
+.person-status {
+  margin: 0;
+  font-size: 9px;
+}
+
+.back-option {
+  position: relative;
+  bottom: 6px;
+}
+
+.three-dots img {
+  width: 21px;
+  position: relative;
+  left: 40px;
+}
+
+.notch {
+  position: absolute;
+  width: 125px;
+  height: 25px;
+  background-color: white;
+  border-radius: 25px;
+  top: 0px;
+  left: 60px;
+}
+
+.chat-section {
+  background-color: hsl(270, 20%, 96%);
+  border-radius: 0 0 20px 20px;
+  margin-top: -5px;
+}
+
+.message {
+  font-size: 9px;
+  max-width: 62%;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 8px;
+  margin: 6px
+}
+
+.in {
+  background-color: #caf9ff;
+  color: hsl(276, 55%, 52%);
+}
+
+.out {
+  background-color: white;
+  color: hsl(271, 15%, 43%);
+  margin-left: auto;
+}
+
+.dogs-pic {
+  text-align: right;
+  background-color: inherit;
+}
+
+.dogs-pic img {
+  width: 40px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.offer {
+  background-color: hsl(276, 55%, 52%);
+  background: linear-gradient(90deg, hsla(293, 100%, 63%, 1) 0%, hsla(264, 100%, 61%, 1) 54%, hsla(264, 100%, 61%, 1) 100%);
+  color: white;
+  min-width: 66%;
+  position: relative;
+}
+
+.offer img {
+  width: 12px;
+  opacity: 0.6;
+}
+
+.rate {
+  font-size: 9px;
+  margin-left: 5px;
+  position: relative;
+  bottom: 2px;
+}
+
+.price {
+  position: absolute;
+  font-size: 15px;
+  right: 15px;
+  top: 6px;
+}
+
+input {
+  background-color: white;
+  border-radius: 15px;
+  margin: 7px;
+  border-width: 0;
+  height: 33px;
+  padding-left: 17px;
+  color: hsl(276deg 30% 46% / 41%);
+  font-size: 12px;
+  outline: none;
+}
+
+button {
+  padding: 0;
+  border-width: 0;
+  position: relative;
+  top: 12px;
+  right: 5px;
+  outline: none;
+}
+
+button img {
+  width: 33px;
+  border-radius: 50%;
+  transform: rotate(270deg);
+}
+
+.info {
+  display: inline-block;
+  max-width: 28rem;
+  margin: auto 2rem;
+}
+
+.info h2 {
+  color: hsl(271, 36%, 24%);
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.info p {
+  color: hsl(270, 7%, 64%);
+}
+
+@media (max-width:800px) {
+  .content {
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+  }
+
+  .info {
+    margin: unset;
+    text-align: center;
+    width: 80%;
+  }
+
+  body {
+    overflow-x: visible;
+  }
+
+  body::after {
+    content: none;
+  }
+}
+
+.attribution {
+  margin: 1.5rem 0 0.5rem 0;
+  font-size: 15px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
