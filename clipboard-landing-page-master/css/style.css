@@ -112,6 +112,12 @@ h4 {
   }
 }
 
+@media (max-width:360px){
+  .upper img,.lower img{
+    width: 100%;
+  }
+}
+
 .feature {
   display: inline-flex;
   flex-direction: column;
