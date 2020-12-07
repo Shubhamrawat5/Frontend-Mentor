@@ -3,7 +3,6 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
   max-width: 1440px;
-  min-width: 375px;
   background-color: hsl(229, 57%, 11%);
   color: white;
   background-image: url(../images/bg-desktop.png);

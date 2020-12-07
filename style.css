@@ -35,13 +35,28 @@ img {
   overflow: hidden;
 }
 
+hr {
+  display: none;
+}
+
 @media (max-width:1000px) {
   img {
     width: 50rem;
   }
 
+  h4 {
+    font-size: 150%;
+  }
+
   .design {
-    margin: 0 0 3rem 0;
+    margin: 2rem 0;
+  }
+
+  hr {
+    display: block;
+    opacity: 0.6;
+    border-color: darkslategrey;
+    margin: 2rem auto;
   }
 }
 

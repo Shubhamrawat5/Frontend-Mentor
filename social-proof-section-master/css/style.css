@@ -2,7 +2,6 @@ body {
   font-family: 'Spartan', sans-serif;
   background-color: hsl(0, 0%, 100%);
   font-size: 15px;
-  min-width: 375px;
   max-width: 1440px;
   text-align: center;
   margin-top: 25px;
