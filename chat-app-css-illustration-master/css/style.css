@@ -169,6 +169,7 @@ input {
   background-color: white;
   border-radius: 15px;
   margin: 7px;
+  margin-right: 0;
   border-width: 0;
   height: 33px;
   padding-left: 17px;
