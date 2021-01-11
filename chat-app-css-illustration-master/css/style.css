@@ -174,8 +174,9 @@ input {
   height: 33px;
   padding-left: 17px;
   color: hsl(276deg 30% 46% / 41%);
-  font-size: 12px;
+  font-size: 0.75rem;
   outline: none;
+  width: 142px;
 }
 
 button {

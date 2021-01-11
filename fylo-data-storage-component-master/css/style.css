@@ -24,7 +24,7 @@ body {
 .main-section {
   height: 11rem;
   width: 20rem;
-  margin-top: 16rem;
+  margin-top: 15rem;
   border-radius: 10px 90px 10px 10px;
 }
 
@@ -147,30 +147,32 @@ body {
 .attribution {
   font-size: 15px;
   text-align: center;
-  margin-top: 6rem;
+  margin-top: 8rem;
 }
 
 .attribution a {
   color: hsl(228deg 28% 83%);
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:950px) {
   body {
     background-image: url(../images/bg-mobile.png);
     background-size: cover;
     background-position-y: 0;
     background-repeat: repeat;
+
   }
 
   .main-section, .info-section {
     display: block;
     margin: 0 auto 0 auto;
+    max-width: 27rem;
   }
 
   .main-section {
     width: auto;
     margin: auto;
-    margin-top: 5rem;
+    margin-top: 8rem;
   }
 
   .info-section {
